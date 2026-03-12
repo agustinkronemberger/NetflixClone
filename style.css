@@ -1,17 +1,115 @@
-body{
-margin:0;
-font-family:Arial;
-background:black;
-color:white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header{
-display:flex;
-justify-content:space-between;
-padding:20px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000;
+    color: #fff;
 }
 
-.hero{
-text-align:center;
-margin-top:150px;
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    position: absolute;
+    width: 100%;
+}
+
+.logo {
+    color: #e50914;
+    font-size: 32px;
+}
+
+.btn-login {
+    background: #e50914;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* HERO */
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url("img.jpg.jpg") center/cover no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.small {
+    font-size: 16px;
+}
+
+/* EMAIL FORM */
+.email-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-form input {
+    padding: 15px;
+    width: 300px;
+    border: none;
+}
+
+.email-form button {
+    padding: 15px 30px;
+    background: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* FEATURES */
+.feature {
+    padding: 60px 40px;
+    border-top: 8px solid #222;
+    text-align: center;
+}
+
+.feature h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+.footer {
+    padding: 40px;
+    background: #111;
+    text-align: center;
+    font-size: 14px;
+}
+
+.copy {
+    margin-top: 10px;
+    color: #777;
 }

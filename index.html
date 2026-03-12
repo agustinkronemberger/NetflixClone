@@ -1,44 +1,53 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-<title>Netflix Clone</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- NAVBAR -->
-
-<header>
-<h1>NETFLIX</h1>
-<button>Iniciar sesión</button>
+<header class="navbar">
+    <h1 class="logo">NETFLIX</h1>
+    <div>
+        <button class="btn-login">Iniciar sesión</button>
+    </div>
 </header>
 
-<!-- HERO -->
-
 <section class="hero">
-<h2>Rick and Morty</h2>
+    <div class="hero-content">
+        <h2>Todas las películas y series que desees, y mucho más.</h2>
+        <p>Disfruta donde quieras. Cancela cuando quieras.</p>
+        <p class="small">
+            ¿Quieres ver algo ya? Escribe tu correo para crear una suscripción.
+        </p>
 
-<button>Reproducir</button>
-<button>Más información</button>
+        <div class="email-form">
+            <input type="email" placeholder="Correo electrónico">
+            <button>Empezar</button>
+        </div>
+    </div>
 </section>
 
-<!-- FILA DE PELÍCULAS -->
-
-<section class="row">
-
-<h3>Series populares</h3>
-
-<div class="movies">
-
-<img src="img1.jpg">
-<img src="img2.jpg">
-<img src="img3.jpg">
-
-</div>
-
+<section class="feature">
+    <h2>Disfruta en tu TV</h2>
+    <p>Ve en Smart TV, PlayStation, Xbox, Chromecast y más.</p>
 </section>
+
+<section class="feature">
+    <h2>Descarga tus series</h2>
+    <p>Guarda tus favoritos para verlos sin conexión.</p>
+</section>
+
+<section class="feature">
+    <h2>Crea perfiles para niños</h2>
+    <p>Una experiencia segura para los más chicos.</p>
+</section>
+
+<footer class="footer">
+    <p>Preguntas frecuentes · Centro de ayuda · Cuenta · Contacto</p>
+    <p class="copy">Netflix Clone — Proyecto educativo</p>
+</footer>
 
 </body>
 </html>
