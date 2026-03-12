@@ -1,0 +1,17 @@
+body{
+margin:0;
+font-family:Arial;
+background:black;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px;
+}
+
+.hero{
+text-align:center;
+margin-top:150px;
+}
